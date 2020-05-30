@@ -20,7 +20,7 @@ The entire process repeats again.
 dlib  
 imutils  
 numpy  
-opencv-python  
+opencv  
 scipy  
 
 ### Quick Start
