@@ -31,14 +31,16 @@ scipy
 `cd People_counter`
 3. Install all dependencies required, run:  
 `pip3 install -r requirements.txt`  
-3. Run Demo      
-usage: python3 SimplePeopleCounter.py   
-				[--protext PATH TO CAFFE 'DEPLOY' PROTEXT FILE]  
-				[--model PATH TO CAFFE PRE-TRAINED MODEL]  
-				[--input PATH TO VIDEO FILE]  
-				[--output PATH TO OUTPUT VIDEO FILE]  
-				[--confidence MINIMUM PROBABILITY TO FILTER WEAK DETECTIONS, default = 0.4]  
-				[--skip-frames NO. OF FRAMES BETWEEN DETECTIONS, default = 30]  
+3. Run Demo  
+usage: python3 SimplePeopleCounter.py
+				[--protext PATH TO CAFFE 'DEPLOY' PROTEXT FILE]
+				[--model PATH TO CAFFE PRE-TRAINED MODEL]        
+				[--protext PATH TO CAFFE 'DEPLOY' PROTEXT FILE]
+				[--model PATH TO CAFFE PRE-TRAINED MODEL]
+				[--input PATH TO INPUT VIDEO FILE]
+				[--output PATH TO OUTPUT VIDEO FILE]
+				[--confidence MINIMUM PROBABILITY TO FILTER WEAK DETECTIONS, default = 0.4] 
+				[--skip-frames NO. OF FRAMES BETWEEN DETECTIONS, default = 30]
 Run:  
 `python3 SimplePeopleCounter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4 --output output/output_01.avi`
 
