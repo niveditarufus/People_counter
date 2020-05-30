@@ -27,7 +27,7 @@ scipy
 
 #### 1. Clone the repository:  
 `git clone https://github.com/niveditarufus/People_counter.git`  
-#### 2. run:  
+#### 2. Run:  
 `cd People_counter`
 #### 3. Install all dependencies required, run:  
 `pip3 install -r requirements.txt`  
