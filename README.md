@@ -17,7 +17,7 @@ In this phase, we create an object tracker to track objects as they move in the 
 The entire process repeats again.
 
 ### Dependencies  
-Python3
+Python3  
 dlib  
 imutils  
 numpy  
