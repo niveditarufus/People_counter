@@ -149,7 +149,7 @@ def display(info, frame, writer):
 	for (i, (k, v)) in enumerate(info):
 		text = "{}: {}".format(k, v)
 		cv2.putText(frame, text, (10, H - ((i * 20) + 20)),
-			cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2)
+			cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 255), 2)
 	# write to disk if required
 	if writer is not None:
 		writer.write(frame)
@@ -242,7 +242,7 @@ while True:
 	# draw a horizontal line in the center
 	#once an object crosses this line we will 
 	# determine whether they were moving 'up' or 'down'
-	cv2.line(frame, (0, H // 2), (W, H // 2), (0, 255, 255), 2)
+	cv2.line(frame, (0, H // 2), (W, H // 2), (0, 0, 255), 2)
 
 	#update object list with newly computed centroids
 	objects = ct.updateObjects(boundingBoxes)
