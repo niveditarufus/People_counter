@@ -26,13 +26,13 @@ scipy
 
 ### Quick Start
 
-1. Clone the repository:  
+##### 1. Clone the repository:  
 `git clone https://github.com/niveditarufus/People_counter.git`  
-2. Run:  
+##### 2. Run:  
 `cd People_counter`
-3. Install all dependencies required, run:  
+##### 3. Install all dependencies required, run:  
 `pip3 install -r requirements.txt`  
-4. Run Demo:      
+##### 4. Run Demo:      
 usage: python3 SimplePeopleCounter.py  
 				[--protext PATH TO CAFFE 'DEPLOY' PROTEXT FILE]  
 				[--model PATH TO CAFFE PRE-TRAINED MODEL]  
@@ -40,7 +40,7 @@ usage: python3 SimplePeopleCounter.py
 				[--output PATH TO OUTPUT VIDEO FILE]  
 				[--confidence MINIMUM PROBABILITY TO FILTER WEAK DETECTIONS, default = 0.4]  
 				[--skip-frames NO. OF FRAMES BETWEEN DETECTIONS, default = 30]  
-Example:  
+###### Example:  
 `python3 SimplePeopleCounter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4 --output output/output_01.avi`
 
 This was inspired by:  
