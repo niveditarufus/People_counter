@@ -8,7 +8,7 @@ This repository implements a people-counter, which counts people entering and le
 #### Detection Phase  
 The model used for detection is MobileNet SSD.  
 In this phase we run the object tracker to:  
-1. detect new objects that have entered the view.  
+1. Detect new objects that have entered the view.  
 2. Check if any of the existing objects "disappeared" durinf the tracking phase.
 For each detected object we create or update an object tracker with the new bounding box coordinates. The detection phase is run only once in every N frames at it will be very expensive computationally.  
 
